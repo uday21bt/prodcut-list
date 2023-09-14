@@ -1,0 +1,26 @@
+.sort-features {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+
+    @media (max-width: 1024px) { 
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    @media (max-width: 768px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    button {
+        text-transform: uppercase;
+        padding: 0.5rem 0.65rem;
+        border: 1px solid var(--dark);
+        font-size: 0.9rem;
+        background-color: var(--white);
+    }
+}

@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 8rem;
+    background-color: var(--dark);
+
+    @media (max-width: 1024px) {
+        padding: 1rem 5rem;
+    }
+
+    @media (max-width: 768px) {
+        padding: 1rem 4rem;
+    }
+
+    @media (max-width: 426px) {
+        padding: 1rem 1.5rem;
+    }
+
+    .nav-logo {
+        width: 2.75rem;
+    }
+
+    .nav-title {
+        margin-left: 1rem;
+        margin-right: auto;
+        font-size: 1.5rem;
+        color: var(--white);
+
+        @media (max-width: 426px) {
+            display: none;
+        }
+    }
+
+    box-shadow: 0 0 12px var( --dark);
+}
